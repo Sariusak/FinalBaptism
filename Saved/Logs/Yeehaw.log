@@ -3011,3 +3011,406 @@ Script Stack (0 frames) :
 [2024.04.14-13.16.40:694][298]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
 [2024.04.14-13.16.41:495][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
 [2024.04.14-13.16.42:934][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.04.14-13.17.54:957][378]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.14-13.17.54:966][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.14-13.17.54:966][378]PIE: New page: PIE session: VRTemplateMap (14. 4. 2024, 17:17:54)
+[2024.04.14-13.17.54:966][378]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.14-13.17.54:980][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013677s)
+[2024.04.14-13.17.54:980][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.013725s)
+[2024.04.14-13.17.54:990][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.14-13.17.54:992][378]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.14-13.17.54:992][378]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.14-13.17.54:992][378]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.14-13.17.54:992][378]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2024.04.14-13.17.54:992][378]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.14-13.17.54:993][378]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.14-13.17.54:993][378]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.14-13.17.54:993][378]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.14-13.17.54:993][378]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.14-13.17.54:993][378]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.14-13.17.54:995][378]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.14-13.17.55:013][378]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- Razer Barracuda X)
+[2024.04.14-13.17.55:013][378]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.14-13.17.55:013][378]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.14-13.17.55:013][378]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.14-13.17.55:014][378]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.14-13.17.55:014][378]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.14-13.17.55:015][378]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.14-13.17.55:015][378]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.14-13.17.55:015][378]LogInit: FAudioDevice initialized with ID 14.
+[2024.04.14-13.17.55:016][378]LogAudio: Display: Audio Device (ID: 14) registered with world 'VRTemplateMap'.
+[2024.04.14-13.17.55:016][378]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.14-13.17.55:033][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.14-13.17.55:339][378]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.14-13.17.55:344][378]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.14-15.17.55
+[2024.04.14-13.17.55:344][378]LogWorld: Bringing up level for play took: 0.005101
+[2024.04.14-13.17.55:347][378]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.04.14-13.17.55:350][378]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.14-13.17.55:351][378]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.14-13.17.55:354][378]vr.PixelDensity = "1"
+[2024.04.14-13.17.55:358][378]PIE: Server logged in
+[2024.04.14-13.17.55:360][378]PIE: Play in editor total start time 0,396 seconds.
+[2024.04.14-13.17.55:361][378]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2024.04.14-13.17.55:377][378]LogViewport: Scene viewport resized to 3648x1872, mode Windowed.
+[2024.04.14-13.17.55:413][378]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.14-13.18.53:063][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.14-13.18.53:063][275]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.14-13.18.53:096][275]LogSlate: Window 'Yeehaw Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.95.0)' being destroyed
+[2024.04.14-13.18.53:098][275]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.14-13.18.53:098][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-13.18.53:102][275]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.14-13.18.53:107][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-13.18.53:119][275]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.14-13.18.53:119][275]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.14-13.18.53:119][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.14-13.18.53:121][275]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.14-13.18.53:131][275]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.14-13.18.53:131][275]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.14-13.18.53:132][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.04.14-13.18.53:218][276]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.04.14-13.18.59:091][627]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.04.14-13.19.01:836][791]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.04.14-13.19.06:017][ 41]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.04.14-13.19.08:795][207]LogViewport: Scene viewport resized to 1210x695, mode Windowed.
+[2024.04.14-13.19.08:813][208]LogViewport: Scene viewport resized to 1210x688, mode Windowed.
+[2024.04.14-13.19.08:834][209]LogViewport: Scene viewport resized to 1210x663, mode Windowed.
+[2024.04.14-13.19.08:855][210]LogViewport: Scene viewport resized to 1210x603, mode Windowed.
+[2024.04.14-13.19.08:880][211]LogViewport: Scene viewport resized to 1210x515, mode Windowed.
+[2024.04.14-13.19.08:904][212]LogViewport: Scene viewport resized to 1210x426, mode Windowed.
+[2024.04.14-13.19.08:933][213]LogViewport: Scene viewport resized to 1210x330, mode Windowed.
+[2024.04.14-13.19.08:964][214]LogViewport: Scene viewport resized to 1210x279, mode Windowed.
+[2024.04.14-13.19.08:987][215]LogViewport: Scene viewport resized to 1210x255, mode Windowed.
+[2024.04.14-13.19.09:008][216]LogViewport: Scene viewport resized to 1210x247, mode Windowed.
+[2024.04.14-13.19.09:028][217]LogViewport: Scene viewport resized to 1210x244, mode Windowed.
+[2024.04.14-13.19.09:049][218]LogViewport: Scene viewport resized to 1210x243, mode Windowed.
+[2024.04.14-13.19.09:068][219]LogViewport: Scene viewport resized to 1210x242, mode Windowed.
+[2024.04.14-13.19.13:216][452]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.14-13.19.13:229][452]LogMaterial: Warning: [AssetLog] C:\GIT\FinalBaptism\Content\VRTemplate\Materials\Functions\MF_OccludedPixels.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Only transparent or postprocess materials can read from scene depth.
+
+[2024.04.14-13.19.15:744][594]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2024.04.14-13.19.15:745][594]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.14-13.19.15:745][594]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.14-13.20.12:240][947]LogViewport: Scene viewport resized to 1210x240, mode Windowed.
+[2024.04.14-13.20.12:261][948]LogViewport: Scene viewport resized to 1210x258, mode Windowed.
+[2024.04.14-13.20.12:290][949]LogViewport: Scene viewport resized to 1210x327, mode Windowed.
+[2024.04.14-13.20.12:317][950]LogViewport: Scene viewport resized to 1210x429, mode Windowed.
+[2024.04.14-13.20.12:347][951]LogViewport: Scene viewport resized to 1210x528, mode Windowed.
+[2024.04.14-13.20.12:373][952]LogViewport: Scene viewport resized to 1210x598, mode Windowed.
+[2024.04.14-13.20.12:401][953]LogViewport: Scene viewport resized to 1210x647, mode Windowed.
+[2024.04.14-13.20.12:429][954]LogViewport: Scene viewport resized to 1210x685, mode Windowed.
+[2024.04.14-13.20.12:456][955]LogViewport: Scene viewport resized to 1210x706, mode Windowed.
+[2024.04.14-13.20.12:482][956]LogViewport: Scene viewport resized to 1210x729, mode Windowed.
+[2024.04.14-13.20.12:509][957]LogViewport: Scene viewport resized to 1210x749, mode Windowed.
+[2024.04.14-13.20.12:535][958]LogViewport: Scene viewport resized to 1210x757, mode Windowed.
+[2024.04.14-13.21.23:927][335]BlueprintLog: New page: Compile VRPawn
+[2024.04.14-13.21.24:014][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.04.14-13.21.24:070][335]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.21.24:258][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/VRPawn" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset" SILENT=true
+[2024.04.14-13.21.24:343][335]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2024.04.14-13.21.24:344][335]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRPawn639B46F84726C6722BD70C8DEC6F0756.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2024.04.14-13.21.24:353][335]LogFileHelpers: InternalPromptForCheckoutAndSave took 282 ms (total: 2.93 sec)
+[2024.04.14-13.21.24:374][335]AssetCheck: New page: Asset Save: VRPawn
+[2024.04.14-13.21.24:374][335]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2024.04.14-13.21.52:643][630]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.14-13.21.52:650][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.14-13.21.52:650][630]PIE: New page: PIE session: VRTemplateMap (14. 4. 2024, 17:21:52)
+[2024.04.14-13.21.52:650][630]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.14-13.21.52:664][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014420s)
+[2024.04.14-13.21.52:664][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.014461s)
+[2024.04.14-13.21.52:677][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.04.14-13.21.52:680][630]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.14-13.21.52:680][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.14-13.21.52:681][630]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.14-13.21.52:681][630]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2024.04.14-13.21.52:681][630]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.14-13.21.52:681][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.14-13.21.52:681][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.14-13.21.52:682][630]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.14-13.21.52:682][630]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.14-13.21.52:682][630]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.14-13.21.52:685][630]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.14-13.21.52:709][630]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- Razer Barracuda X)
+[2024.04.14-13.21.52:710][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.14-13.21.52:710][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.14-13.21.52:710][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.14-13.21.52:711][630]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.14-13.21.52:711][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.14-13.21.52:713][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.14-13.21.52:713][630]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.14-13.21.52:713][630]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.14-13.21.52:713][630]LogAudio: Display: Audio Device (ID: 15) registered with world 'VRTemplateMap'.
+[2024.04.14-13.21.52:713][630]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.14-13.21.52:846][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.14-13.21.53:164][630]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.14-13.21.53:170][630]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.14-15.21.53
+[2024.04.14-13.21.53:170][630]LogWorld: Bringing up level for play took: 0.005631
+[2024.04.14-13.21.53:175][630]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.04.14-13.21.53:178][630]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.14-13.21.53:179][630]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.14-13.21.53:181][630]vr.PixelDensity = "1"
+[2024.04.14-13.21.53:186][630]PIE: Server logged in
+[2024.04.14-13.21.53:188][630]PIE: Play in editor total start time 0,539 seconds.
+[2024.04.14-13.21.53:189][630]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2024.04.14-13.21.53:203][630]LogViewport: Scene viewport resized to 3648x1872, mode Windowed.
+[2024.04.14-13.21.53:246][630]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.14-13.22.28:580][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.14-13.22.28:580][139]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.14-13.22.28:607][139]LogSlate: Window 'Yeehaw Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.95.0)' being destroyed
+[2024.04.14-13.22.28:612][139]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.14-13.22.28:613][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-13.22.28:615][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.14-13.22.28:619][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-13.22.28:629][139]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.14-13.22.28:629][139]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.14-13.22.28:629][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.14-13.22.28:632][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.14-13.22.28:640][139]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.14-13.22.28:640][139]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.14-13.22.28:641][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.14-13.22.28:727][140]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.04.14-13.23.42:189][527]BlueprintLog: New page: Compile VRPawn
+[2024.04.14-13.23.42:255][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.14-13.23.42:305][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.23.42:380][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/VRPawn" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset" SILENT=true
+[2024.04.14-13.23.42:445][527]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2024.04.14-13.23.42:445][527]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRPawn70EFD8684D56764D9FD8E88E142F2C27.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2024.04.14-13.23.42:452][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 3.08 sec)
+[2024.04.14-13.23.42:453][527]AssetCheck: New page: Asset Save: VRPawn
+[2024.04.14-13.23.42:453][527]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2024.04.14-13.23.48:571][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.14-13.23.49:257][856]LogSlate: Window 'Save Content' being destroyed
+[2024.04.14-13.23.49:273][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.23.49:306][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Maps/VRTemplateMap" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.14-13.23.49:328][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.04.14-13.23.49:377][856]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.14-13.23.49:378][856]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMapD4BA3BF243FAAD3F28C237B1DD807A23.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.14-13.23.49:383][856]LogFileHelpers: All files are already saved.
+[2024.04.14-13.23.49:383][856]LogFileHelpers: Saving map 'VRTemplateMap' took 0.077
+[2024.04.14-13.23.49:391][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 3.20 sec)
+[2024.04.14-13.23.49:397][856]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.14-13.23.49:397][856]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.14-13.23.50:917][945]LogDebuggerCommands: Repeating last play command: VR Preview
+[2024.04.14-13.23.50:923][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.14-13.23.50:923][945]PIE: New page: PIE session: VRTemplateMap (14. 4. 2024, 17:23:50)
+[2024.04.14-13.23.50:923][945]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.14-13.23.50:935][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012149s)
+[2024.04.14-13.23.50:935][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.012182s)
+[2024.04.14-13.23.50:944][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.04.14-13.23.50:944][945]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.14-13.23.50:946][945]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.14-13.23.50:946][945]LogAIModule: Creating AISystem for world VRTemplateMap
+[2024.04.14-13.23.50:946][945]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2024.04.14-13.23.50:946][945]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.14-13.23.50:946][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.14-13.23.50:947][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.14-13.23.50:947][945]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.14-13.23.50:947][945]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.14-13.23.50:947][945]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.14-13.23.50:949][945]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.14-13.23.50:966][945]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- Razer Barracuda X)
+[2024.04.14-13.23.50:966][945]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.14-13.23.50:966][945]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.14-13.23.50:966][945]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.14-13.23.50:967][945]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.14-13.23.50:967][945]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.14-13.23.50:968][945]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.14-13.23.50:968][945]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.14-13.23.50:969][945]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.14-13.23.50:969][945]LogAudio: Display: Audio Device (ID: 16) registered with world 'VRTemplateMap'.
+[2024.04.14-13.23.50:969][945]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.14-13.23.50:983][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.14-13.23.51:284][945]LogLoad: Game class is 'VRGameMode_C'
+[2024.04.14-13.23.51:287][945]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2024.04.14-15.23.51
+[2024.04.14-13.23.51:287][945]LogWorld: Bringing up level for play took: 0.003056
+[2024.04.14-13.23.51:290][945]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.04.14-13.23.51:292][945]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2024.04.14-13.23.51:294][945]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2024.04.14-13.23.51:295][945]vr.PixelDensity = "1"
+[2024.04.14-13.23.51:303][945]PIE: Server logged in
+[2024.04.14-13.23.51:304][945]PIE: Play in editor total start time 0,381 seconds.
+[2024.04.14-13.23.51:311][945]LogViewport: Scene viewport resized to 3648x1872, mode Windowed.
+[2024.04.14-13.23.51:336][945]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2024.04.14-13.24.05:605][161]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2024.04.14-13.25.09:880][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.14-13.25.09:880][120]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2024.04.14-13.25.09:907][120]LogSlate: Window 'Yeehaw Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.95.0)' being destroyed
+[2024.04.14-13.25.09:910][120]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.14-13.25.09:911][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-13.25.09:913][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.14-13.25.09:918][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-13.25.09:927][120]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.14-13.25.09:928][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.14-13.25.09:930][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.14-13.25.09:938][120]LogSlate: Slate User Unregistered.  User Index 8
+[2024.04.14-13.25.09:938][120]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2024.04.14-13.25.09:939][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.14-13.25.10:023][121]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.04.14-13.25.33:470][483]LogViewport: Scene viewport resized to 1139x639, mode Windowed.
+[2024.04.14-13.25.46:789][216]BlueprintLog: New page: Compile VRPawn
+[2024.04.14-13.25.46:854][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.14-13.25.46:904][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.25.47:033][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/VRPawn" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset" SILENT=true
+[2024.04.14-13.25.47:100][216]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2024.04.14-13.25.47:100][216]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRPawn850522D14DD5760B19AD6E8DEB553A23.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2024.04.14-13.25.47:109][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 3.40 sec)
+[2024.04.14-13.25.47:112][216]AssetCheck: New page: Asset Save: VRPawn
+[2024.04.14-13.25.47:112][216]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2024.04.14-13.25.55:296][649]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.04.14-13.26.32:064][327]LogSlate: Window 'WorldSettings_1 - Property Editor' being destroyed
+[2024.04.14-13.26.53:989][758]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.26.54:023][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Maps/VRTemplateMap" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.14-13.26.54:047][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.14-13.26.54:100][758]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.14-13.26.54:101][758]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMapF5ED34084CC95324494E8CAD48C957AC.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.14-13.26.54:106][758]LogFileHelpers: All files are already saved.
+[2024.04.14-13.26.54:106][758]LogFileHelpers: Saving map 'VRTemplateMap' took 0.082
+[2024.04.14-13.26.54:113][758]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 3.53 sec)
+[2024.04.14-13.26.54:120][758]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.14-13.26.54:120][758]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.14-13.26.55:445][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.14-13.27.06:090][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.04.14-13.27.08:604][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.27.08:645][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Maps/VRTemplateMap" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.14-13.27.08:665][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.04.14-13.27.08:712][619]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.14-13.27.08:712][619]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMap62634F714F974CB9F2D21C94FF7CE57D.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.14-13.27.08:716][619]LogFileHelpers: All files are already saved.
+[2024.04.14-13.27.08:716][619]LogFileHelpers: Saving map 'VRTemplateMap' took 0.071
+[2024.04.14-13.27.08:725][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 3.65 sec)
+[2024.04.14-13.27.08:726][619]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.14-13.27.08:726][619]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.14-13.28.28:213][146]BlueprintLog: New page: Compile VRPawn
+[2024.04.14-13.28.28:280][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.04.14-13.28.28:331][146]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.28.28:416][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/VRPawn" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset" SILENT=true
+[2024.04.14-13.28.28:480][146]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2024.04.14-13.28.28:480][146]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRPawn4188AA5E48A32282166A46855FC8329E.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2024.04.14-13.28.28:488][146]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 3.80 sec)
+[2024.04.14-13.28.28:491][146]AssetCheck: New page: Asset Save: VRPawn
+[2024.04.14-13.28.28:491][146]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2024.04.14-13.29.42:706][576]Cmd: DELETE
+[2024.04.14-13.29.42:706][576]Cmd: ACTOR DELETE
+[2024.04.14-13.29.42:710][576]LogEditorActor: Deleted Actor: BP_Enemy_C
+[2024.04.14-13.29.42:722][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.04.14-13.29.42:729][576]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.04.14-13.30.21:927][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.14-13.30.23:115][916]LogSlate: Window 'Save Content' being destroyed
+[2024.04.14-13.30.23:135][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.30.23:168][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Maps/VRTemplateMap" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.14-13.30.23:190][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.14-13.30.23:239][916]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.14-13.30.23:239][916]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMap91A7D6AF4ABFAEB1493423A4D35E39FE.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.14-13.30.23:244][916]LogFileHelpers: All files are already saved.
+[2024.04.14-13.30.23:244][916]LogFileHelpers: Saving map 'VRTemplateMap' took 0.077
+[2024.04.14-13.30.23:252][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 3.92 sec)
+[2024.04.14-13.30.23:253][916]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.14-13.30.23:253][916]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2024.04.14-13.40.22:583][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.14-13.40.22:632][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto3
+[2024.04.14-13.40.22:632][992]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMap_Auto3383FFAE345D22F2C047B5D858E14F4CD.tmp' to '../../../../../../GIT/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto3.umap'
+[2024.04.14-13.40.22:633][992]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../GIT/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto3.umap is in the /Temp path, will not scan.
+[2024.04.14-13.40.22:633][992]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.066
+[2024.04.14-13.40.22:633][992]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.066
+[2024.04.14-13.46.17:207][ 68]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.14-13.46.17:363][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.14-13.46.17:569][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.46.17:651][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.14-13.46.17:660][ 68]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.14-13.46.17:661][ 68]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy03743E604887130ABA39D5BD7ECAB59B.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.14-13.46.17:667][ 68]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.02 sec)
+[2024.04.14-13.46.17:669][ 68]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.14-13.46.17:669][ 68]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.14-13.48.41:904][537]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.14-13.48.42:076][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.04.14-13.48.42:253][537]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.48.42:341][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.14-13.48.42:349][537]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.14-13.48.42:350][537]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy864E0D5042A731BAA2C4B185C3D88D38.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.14-13.48.42:359][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 4.12 sec)
+[2024.04.14-13.48.42:361][537]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.14-13.48.42:361][537]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.14-13.49.10:476][170]LogEditorTransaction: Undo Delete current selection
+[2024.04.14-13.49.10:751][174]LogEditorTransaction: Undo Delete current selection
+[2024.04.14-13.50.00:753][113]LogEditorTransaction: Undo Move Nodes
+[2024.04.14-13.50.02:919][224]LogEditorTransaction: Undo Split Struct Pin
+[2024.04.14-13.52.26:741][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.04.14-13.52.26:799][282]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto4
+[2024.04.14-13.52.26:799][282]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMap_Auto458AC778C437EE79589B86FB6773A12D1.tmp' to '../../../../../../GIT/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto4.umap'
+[2024.04.14-13.52.26:800][282]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../GIT/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto4.umap is in the /Temp path, will not scan.
+[2024.04.14-13.52.26:801][282]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.094
+[2024.04.14-13.52.26:801][282]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.094
+[2024.04.14-13.52.26:801][282]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/BP_Enemy] ([2] browsable assets)...
+[2024.04.14-13.52.26:838][282]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy]
+[2024.04.14-13.52.26:838][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/BP_Enemy]
+[2024.04.14-13.52.26:839][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Blueprints/BP_Enemy_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2024.04.14-13.52.26:850][282]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/BP_Enemy_Auto4
+[2024.04.14-13.52.26:851][282]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy_Auto44AFCA62F4BD869E55A7454BE909A53D0.tmp' to '../../../../../../GIT/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Blueprints/BP_Enemy_Auto4.uasset'
+[2024.04.14-13.52.26:852][282]LogFileHelpers: Auto-saving content packages took 0.050
+[2024.04.14-13.55.46:258][454]LogDerivedDataCache: C:/Users/neuvi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:18.046 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 9689 files in 11736 folders with total size 2086 MiB.
+[2024.04.14-13.58.06:742][104]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.14-13.58.06:929][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.04.14-13.58.07:137][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.58.07:227][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.14-13.58.07:239][104]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.14-13.58.07:239][104]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy6448FA5A4A43366F86BDC18708B9E072.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.14-13.58.07:247][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 4.23 sec)
+[2024.04.14-13.58.07:256][104]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.14-13.58.07:256][104]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.14-13.59.48:535][ 48]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.14-13.59.48:725][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.04.14-13.59.48:950][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-13.59.49:035][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.14-13.59.49:049][ 48]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.14-13.59.49:050][ 48]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy7CDCA11F4B25634192C272B247F13B77.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.14-13.59.49:058][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 4.34 sec)
+[2024.04.14-13.59.49:060][ 48]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.14-13.59.49:060][ 48]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.14-14.01.42:193][636]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.14-14.01.42:362][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.14-14.01.42:555][636]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-14.01.42:636][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.14-14.01.42:645][636]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.14-14.01.42:645][636]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy1FC63AF745489649DDAF21B47C8D7249.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.14-14.01.42:652][636]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 4.44 sec)
+[2024.04.14-14.01.42:654][636]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.14-14.01.42:654][636]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.14-14.04.27:164][443]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.14-14.04.27:333][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.14-14.04.27:522][443]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-14.04.27:603][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.14-14.04.27:612][443]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.14-14.04.27:612][443]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/BP_Enemy0379A18647649E0F87D93BA69F1B678C.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.14-14.04.27:620][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.54 sec)
+[2024.04.14-14.04.27:623][443]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.14-14.04.27:623][443]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.14-14.04.30:015][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.04.14-14.04.30:772][521]LogSlate: Window 'Save Content' being destroyed
+[2024.04.14-14.04.30:792][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-14.04.30:833][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Maps/VRTemplateMap" FILE="../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.14-14.04.30:860][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.04.14-14.04.30:940][521]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2024.04.14-14.04.30:940][521]LogSavePackage: Moving '../../../../../../GIT/FinalBaptism/Saved/VRTemplateMap1416B13C462ACBC0D7C5CDB7C16B155C.tmp' to '../../../../../../GIT/FinalBaptism/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2024.04.14-14.04.30:947][521]LogFileHelpers: All files are already saved.
+[2024.04.14-14.04.30:948][521]LogFileHelpers: Saving map 'VRTemplateMap' took 0.116
+[2024.04.14-14.04.30:959][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 4.70 sec)
+[2024.04.14-14.04.30:964][521]AssetCheck: New page: Asset Save: VRTemplateMap
+[2024.04.14-14.04.30:964][521]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
