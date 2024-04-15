@@ -1352,3 +1352,31 @@ The following settings have been applied:
 [2024.04.15-12.01.19:982][112]AssetCheck: New page: Asset Save: BP_Enemy
 [2024.04.15-12.01.19:982][112]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
 [2024.04.15-12.01.21:575][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.04.15-12.03.44:103][ 79]BlueprintLog: New page: Compile qteTrigger2
+[2024.04.15-12.03.44:155][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.04.15-12.03.44:521][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.03.44:669][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bleuprints/qteTrigger2" FILE="../../../../Unreal/FinalBaptism/Content/Bleuprints/qteTrigger2.uasset" SILENT=true
+[2024.04.15-12.03.44:681][ 79]LogSavePackage: Moving output files for package: /Game/Bleuprints/qteTrigger2
+[2024.04.15-12.03.44:682][ 79]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/qteTrigger2B32EC7DD40E778AE90005D879D840A9C.tmp' to '../../../../Unreal/FinalBaptism/Content/Bleuprints/qteTrigger2.uasset'
+[2024.04.15-12.03.44:743][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 1.84 sec)
+[2024.04.15-12.03.44:745][ 79]AssetCheck: New page: Asset Save: qteTrigger2
+[2024.04.15-12.03.44:745][ 79]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bleuprints/qteTrigger2.qteTrigger2
+[2024.04.15-12.04.13:623][796]BlueprintLog: New page: Compile qteTrigger3
+[2024.04.15-12.04.13:675][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.04.15-12.04.14:051][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.04.14:193][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bleuprints/qteTrigger3" FILE="../../../../Unreal/FinalBaptism/Content/Bleuprints/qteTrigger3.uasset" SILENT=true
+[2024.04.15-12.04.14:206][796]LogSavePackage: Moving output files for package: /Game/Bleuprints/qteTrigger3
+[2024.04.15-12.04.14:207][796]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/qteTrigger30B91C930418D1019224DED90CC44EAAB.tmp' to '../../../../Unreal/FinalBaptism/Content/Bleuprints/qteTrigger3.uasset'
+[2024.04.15-12.04.14:266][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 2.06 sec)
+[2024.04.15-12.04.14:268][796]AssetCheck: New page: Asset Save: qteTrigger3
+[2024.04.15-12.04.14:268][796]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bleuprints/qteTrigger3.qteTrigger3
+[2024.04.15-12.04.36:842][350]BlueprintLog: New page: Compile qteTrigger4
+[2024.04.15-12.04.36:894][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.04.15-12.04.37:271][350]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.04.37:417][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bleuprints/qteTrigger4" FILE="../../../../Unreal/FinalBaptism/Content/Bleuprints/qteTrigger4.uasset" SILENT=true
+[2024.04.15-12.04.37:429][350]LogSavePackage: Moving output files for package: /Game/Bleuprints/qteTrigger4
+[2024.04.15-12.04.37:430][350]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/qteTrigger4BD5DE4F246D1A294351C87A25789665D.tmp' to '../../../../Unreal/FinalBaptism/Content/Bleuprints/qteTrigger4.uasset'
+[2024.04.15-12.04.37:490][350]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 2.28 sec)
+[2024.04.15-12.04.37:492][350]AssetCheck: New page: Asset Save: qteTrigger4
+[2024.04.15-12.04.37:492][350]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bleuprints/qteTrigger4.qteTrigger4
+[2024.04.15-12.04.39:009][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
