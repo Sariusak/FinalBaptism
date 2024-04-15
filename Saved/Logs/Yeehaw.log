@@ -1306,3 +1306,22 @@ The following settings have been applied:
 [2024.04.15-12.35.54:142][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 649 ms)
 [2024.04.15-12.35.54:144][686]AssetCheck: New page: Asset Save: BP_Enemy
 [2024.04.15-12.35.54:144][686]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.15-12.39.24:925][ 70]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.15-12.39.25:139][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.04.15-12.39.25:501][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.39.25:645][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.15-12.39.25:658][ 70]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.15-12.39.25:658][ 70]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/BP_Enemy9A24ED214238CDBC05A15497A1D47209.tmp' to '../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.15-12.39.25:720][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 868 ms)
+[2024.04.15-12.39.25:721][ 70]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.15-12.39.25:721][ 70]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.15-12.40.20:907][328]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.15-12.40.21:134][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.04.15-12.40.21:468][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.40.21:607][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.15-12.40.21:621][328]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.15-12.40.21:622][328]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/BP_Enemy6BCB2CA9495A4B23C8FB85B57D4F7F52.tmp' to '../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.15-12.40.21:680][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 1.08 sec)
+[2024.04.15-12.40.21:690][328]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.15-12.40.21:690][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.15-12.40.23:623][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
