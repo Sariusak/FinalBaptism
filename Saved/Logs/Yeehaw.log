@@ -1325,3 +1325,30 @@ The following settings have been applied:
 [2024.04.15-11.29.05:636][673]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 1.38 sec)
 [2024.04.15-11.29.05:638][673]AssetCheck: New page: Asset Save: qteTrigger4
 [2024.04.15-11.29.05:638][673]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bleuprints/qteTrigger4.qteTrigger4
+[2024.04.15-12.00.12:775][324]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.15-12.00.12:775][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-12.00.12:775][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: ================================================
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: Total job queries 165, among them cache hits 131 (79.39%)
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: Tracking 34 distinct input hashes that result in 25 distinct outputs (73.53%)
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: RAM used: 1,29 MiB of 819,20 MiB budget. Usage: 0.16%
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.15-12.00.13:138][326]LogShaderCompilers: Display: ================================================
+[2024.04.15-12.01.09:104][871]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.15-12.01.09:130][871]LogBlueprint: Error: [AssetLog] C:\Unreal\FinalBaptism\Content\VRTemplate\Blueprints\BP_Enemy.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to New Event Dispatcher
+[2024.04.15-12.01.09:293][871]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.04.15-12.01.19:155][112]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.15-12.01.19:370][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.04.15-12.01.19:741][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.01.19:839][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.15-12.01.19:902][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.15-12.01.19:917][112]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.15-12.01.19:918][112]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/BP_Enemy7F8923A24B7044E2CFB43C9529C33144.tmp' to '../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.15-12.01.19:980][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 238 ms (total: 1.62 sec)
+[2024.04.15-12.01.19:982][112]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.15-12.01.19:982][112]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.15-12.01.21:575][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
