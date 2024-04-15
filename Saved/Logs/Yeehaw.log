@@ -1325,3 +1325,23 @@ The following settings have been applied:
 [2024.04.15-12.40.21:690][328]AssetCheck: New page: Asset Save: BP_Enemy
 [2024.04.15-12.40.21:690][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
 [2024.04.15-12.40.23:623][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.04.15-12.46.52:999][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.04.15-12.46.53:000][540]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.018
+[2024.04.15-12.46.53:001][540]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/VRTemplate/Blueprints/BP_Enemy] ([2] browsable assets)...
+[2024.04.15-12.46.53:042][540]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy]
+[2024.04.15-12.46.53:042][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/VRTemplate/Blueprints/BP_Enemy]
+[2024.04.15-12.46.53:042][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../Unreal/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Blueprints/BP_Enemy_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.04.15-12.46.53:057][540]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Blueprints/BP_Enemy_Auto1
+[2024.04.15-12.46.53:057][540]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/BP_Enemy_Auto174AC0B60495C9473222910BC2ED20981.tmp' to '../../../../Unreal/FinalBaptism/Saved/Autosaves/Game/VRTemplate/Blueprints/BP_Enemy_Auto1.uasset'
+[2024.04.15-12.46.53:059][540]LogFileHelpers: Auto-saving content packages took 0.059
+[2024.04.15-12.49.26:867][341]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.15-12.49.27:078][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.04.15-12.49.27:457][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.15-12.49.27:597][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VRTemplate/Blueprints/BP_Enemy" FILE="../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset" SILENT=true
+[2024.04.15-12.49.27:613][341]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/BP_Enemy
+[2024.04.15-12.49.27:613][341]LogSavePackage: Moving '../../../../Unreal/FinalBaptism/Saved/BP_Enemy48C19B8642792F5ADB9137BE20538312.tmp' to '../../../../Unreal/FinalBaptism/Content/VRTemplate/Blueprints/BP_Enemy.uasset'
+[2024.04.15-12.49.27:673][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 1.29 sec)
+[2024.04.15-12.49.27:675][341]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.15-12.49.27:675][341]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.15-12.49.30:124][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2024.04.15-12.49.33:368][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
